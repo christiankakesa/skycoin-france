@@ -72,7 +72,7 @@ paginate = 10
     author = "Skycoin France"
     defaultKeywords = ["skycoin-france", "skycoin", "slywire", "skyminer", "obelisk"]
     mainSections = ["blog"]
-    defaultDescription = "Skycoin France, le posrtail francophone de la communauté Skycoin"
+    defaultDescription = "Skycoin France, le portail francophone de la communauté Skycoin"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
