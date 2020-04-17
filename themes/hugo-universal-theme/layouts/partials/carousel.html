@@ -10,7 +10,13 @@
                 <div class="item">
                     <div class="row">
                         <div class="col-sm-5 right">
-                            <h1>{{ .title }}</h1>
+                            <h1>
+                            {{if .link }}
+                            <a href="{{ .link }}" style="text-decoration: none;color: white;" target="_blank">{{ .title }}</a>
+                            {{ else }}
+                            {{ .title }}
+                            {{ end }}
+                            </h1>
                             {{ .description | safeHTML }}
                         </div>
                         <div class="col-sm-7">
