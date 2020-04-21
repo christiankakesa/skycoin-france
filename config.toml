@@ -23,11 +23,11 @@ paginate = 10
     url  = "/"
     weight = 1
 
-# [[menu.main]]
-#     identifier="blog"
-#     name = "Blog"
-#     url  = "/blog/"
-#     weight = 2
+[[menu.main]]
+    identifier="blog"
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
 
 # [[menu.main]]
 #     identifier = "faq"
@@ -142,6 +142,14 @@ paginate = 10
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
 
+[params.see_more]
+    enable = true
+    icon = "far fa-file-alt"
+    title = "En savoir plus sur Skycoin et son éco-système ?"
+    subtitle = ""
+    link_url = "https://www.skycoin.com/ecosystem/"
+    link_text = "L'Éco-Système Skycoin"
+
 [params.features]
     enable = false
     # All features are defined in their own files. You can find example items
@@ -155,14 +163,6 @@ paginate = 10
     # For more informtion take a look at the README.
     title = "Ils utilisent l'éco-système Skycoin"
     subtitle = "Beaucoup de projets autour de l'éco-système Skycoin existent. Voici quelques un d'entre eux"
-
-[params.see_more]
-    enable = true
-    icon = "far fa-file-alt"
-    title = "En savoir plus sur Skycoin et son éco-système ?"
-    subtitle = ""
-    link_url = "https://www.skycoin.com/ecosystem/"
-    link_text = "L'Éco-Système Skycoin"
 
 [params.clients]
     enable = true
