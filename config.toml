@@ -173,6 +173,6 @@ paginate = 10
     subtitle = "Skycoin met en place un éco-système solide et plus que nécessaire"
 
 [params.recent_posts]
-    enable = false
+    enable = true
     title = "Nos publications récentes"
     subtitle = ""
