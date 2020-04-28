@@ -17,7 +17,7 @@ Si vous utilisez une autre distribution _GNU/Linux_, adaptez l'installation des 
 
 ## Installer Skywire Mainnet
 
-> Si vous avez une _Raspberry Pi Zero_ passer directement à la section installation depuis le code source.
+> Si vous avez une _Raspberry Pi Zero_, passez directement à la section installation depuis le code source.
 
 ### Installer Skywire Mainnet depuis les binaires
 
