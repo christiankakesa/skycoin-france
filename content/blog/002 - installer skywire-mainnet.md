@@ -17,11 +17,12 @@ Si vous utilisez une autre distribution _GNU/Linux_, adaptez l'installation des 
 
 ## Installer Skywire Mainnet
 
+> Si vous avez une _Raspberry Pi Zero_ passer directement à la section installation depuis le code source.
+
 ### Installer Skywire Mainnet depuis les binaires
 
 > Je vais utiliser les binaires _ARMv7_ qui ne fonctionnent pas sur une _Pi Zero_ qui embarque un _ARMv6_
-> mais les commandes à exécuter sont exactement les mêmes.0
-> Si vous avez une _Raspberry Pi Zero_ passer directement à la section installation depuis le code source.
+> mais les commandes à exécuter sont exactement les mêmes.
 
 Ouvrez un terminal et installez les dépendances avec les commandes ci-dessous :
 
