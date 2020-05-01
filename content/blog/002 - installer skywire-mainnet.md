@@ -253,8 +253,8 @@ WantedBy=multi-user.target
 Activez et lancez le service de l'hypervisor :
 
 ```bash
-sudo systemctl enable skywire-hypervisor.service
 sudo systemctl daemon-reload
+sudo systemctl enable skywire-hypervisor.service
 sudo systemctl start skywire-hypervisor.service
 ```
 
@@ -295,8 +295,8 @@ WantedBy=multi-user.target
 Activez et lancez le service du visor :
 
 ```bash
-sudo systemctl enable skywire-visor.service
 sudo systemctl daemon-reload
+sudo systemctl enable skywire-visor.service
 sudo systemctl start skywire-visor.service
 ```
 
