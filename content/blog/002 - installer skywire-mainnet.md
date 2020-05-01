@@ -152,6 +152,7 @@ Créons le répertoire où nous allons déposer nos fichiers de configuration :
 ```bash
 cd $HOME
 cd opt/skywire
+cp -r $HOME/src/skywire-mainnet/apps .
 hypervisor gen-config
 skywire-cli visor gen-config
 ```
